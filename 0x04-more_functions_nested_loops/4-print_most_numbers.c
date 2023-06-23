@@ -1,7 +1,8 @@
-#include "main.h"
+"main.h"
 /**
- * print_numbers - Multiplies two #
- * Return: The result of multiplication between x param and y param
+ * print_most_numbers - Print the # since 0 up to 9
+ * Description: Prints the # excluding 2 and 4
+ * Return: The # since 0 up to 9
  */
 void print_most_numbers(void)
 {
@@ -16,6 +17,7 @@ void print_most_numbers(void)
 	else
 	{
 	_putchar(x + '0');
+	}
 	}
 	_putchar('\n');
 }
