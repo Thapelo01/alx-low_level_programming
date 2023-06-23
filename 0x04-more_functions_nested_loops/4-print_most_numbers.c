@@ -1,4 +1,4 @@
-"main.h"
+#include "main.h"
 /**
  * print_most_numbers - Print the # since 0 up to 9
  * Description: Prints the # excluding 2 and 4
