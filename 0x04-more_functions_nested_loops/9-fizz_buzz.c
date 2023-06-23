@@ -1,9 +1,10 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * main - Prints a Fizz Buzz program
  * Return: Always 0 
  */
-void print_square(int size)
+int main(void)
 {
 	int x;
 
@@ -13,7 +14,7 @@ void print_square(int size)
 	{
 	printf("fizzBuzz");
 	}
-	else if (x = 3 == 0)
+	else if (x % 3 == 0)
 	{
 	printf("fizzer");
 	}
