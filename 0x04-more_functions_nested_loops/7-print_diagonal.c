@@ -1,13 +1,27 @@
 #include "main.h"
 /**
- * main - check the code
- * Return: Always 0
+ * print_diagona - Draws a diagonal line according to parameter
+ * @n: The # of times to print diagonal line
+ * Return: empty
  */
-int main(void)
+void print_diagona(int n)
 {
-	print_diagona(0);
-	print_diagona(2);
-	print_diagona(10);
-	print_diagona(-4);
-	return (0);
+	int x, yy;
+
+	if (n <= 0)
+	{
+	_putchar('\n');
+	}
+	else
+	{
+	for (x = 0; x < n; x++)
+	{
+	for (y = 0; y < x; y++)
+	{
+	_putchar(32);
+	}
+	_putchar(92);
+	_putchar('\n');
+	}
+	}
 }
