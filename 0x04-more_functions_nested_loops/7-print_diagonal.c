@@ -6,7 +6,7 @@
  */
 void print_diagona(int n)
 {
-	int x, yy;
+	int x, y;
 
 	if (n <= 0)
 	{
