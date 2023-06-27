@@ -1,11 +1,10 @@
 #include "main.h"
 /**
- * puts2 - Prints every other char of a string
- * @str: The string to be treated
+ * puts_half - Prints half of a string
+ * @str: The string to ptint
  * Return: void
  */
-
-void puts2(char *str)
+void puts_half(char *str)
 {
 	int j = 0;
 	int k;
