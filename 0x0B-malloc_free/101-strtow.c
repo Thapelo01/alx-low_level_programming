@@ -148,6 +148,5 @@ char **strtow(char *str)
 		
 
 		
-	return (matrix);
-		
+	return (matrix);	
 }
